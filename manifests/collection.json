@@ -1,0 +1,13 @@
+{
+  "id" : "https://elisaif.github.io/TMDRA-project/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in elisaif/TMDRA-project project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://elisaif.github.io/TMDRA-project/manifests/TMDRA_project_manifest.json",
+    "label" : "The Handwritten Digits (1, 4, 9) and Letters (A, B)"
+  } ]
+}
