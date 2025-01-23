@@ -1,0 +1,283 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://elisaif.github.io/TMDRA-project/manifests/TMDRA_project_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "The Handwritten Digits (1, 4, 9) and Letters (A, B)",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This manifest consists of the handwritten digits (1 (one), 4 (four), 9 (nine)) and letters (A, B). Each symbol has two handwritten versions. ",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Elina Saifutdinova, Kseniia Zakharneva",
+  "sequences" : [ {
+    "@id" : "http://d1ae7d82-6925-4bd7-bcf5-069ae66ff963",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://9055abc4-a58f-40ed-b048-36a21e0dcb34",
+      "@type" : "sc:Canvas",
+      "label" : "The first example of the digit 'one' (1)",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://81bfdb5c-cdb5-408d-82a4-ddc176ceae54",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/1_1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/1_1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://9055abc4-a58f-40ed-b048-36a21e0dcb34"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://08158d2e-dfda-4382-824c-0599929d0be7",
+      "@type" : "sc:Canvas",
+      "label" : "The second example of the digit 'one' (1)",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2d779d14-b752-44c6-8d99-d744af346d58",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/1_2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/1_2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://08158d2e-dfda-4382-824c-0599929d0be7"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d976821f-ddc9-45c3-aed3-0610ff34f952",
+      "@type" : "sc:Canvas",
+      "label" : "The first example of the digit 'four' (4)",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://415bda6d-c79e-4376-bbd5-d1b5da99c83d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/4_1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/4_1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://d976821f-ddc9-45c3-aed3-0610ff34f952"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://322db072-992f-4497-9e4f-0d986fc98500",
+      "@type" : "sc:Canvas",
+      "label" : "The second example of the digit 'four' (4)",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d2cb0c00-1fdf-43c2-ba9c-573da3a1c3e5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/4_2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/4_2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://322db072-992f-4497-9e4f-0d986fc98500"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f382a3a8-3277-42ac-9594-d0dd75da6e7c",
+      "@type" : "sc:Canvas",
+      "label" : "The first example of the digit 'nine' (9)",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://13e35244-bb64-482d-aeeb-7ce58007fd81",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/9_1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/9_1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://f382a3a8-3277-42ac-9594-d0dd75da6e7c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4cb0e2d2-c183-456b-9b38-280a0c65ff56",
+      "@type" : "sc:Canvas",
+      "label" : "The second example of the digit 'nine' (9)",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fa972c29-0cd1-48b7-9b86-1476bdc8f498",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/9_2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/9_2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://4cb0e2d2-c183-456b-9b38-280a0c65ff56"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1565decb-f768-434b-8aa7-bde551c01146",
+      "@type" : "sc:Canvas",
+      "label" : "The first example of the letter 'A' ",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://74941640-5ec9-4a63-b7c9-7945de9708b0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/A_1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/A_1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://1565decb-f768-434b-8aa7-bde551c01146"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6e7999a8-4727-4d5c-bda0-03da00e3cb7b",
+      "@type" : "sc:Canvas",
+      "label" : "The second example of the letter 'A' ",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://91bc0ff4-2cb7-40a8-993a-3206e12d8b0d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/A_2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/A_2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://6e7999a8-4727-4d5c-bda0-03da00e3cb7b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://46553470-9935-4c74-88c7-4c129a288a33",
+      "@type" : "sc:Canvas",
+      "label" : "The first example of the letter 'B' ",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://863054de-40d2-4bb1-aad9-5a32d3d0a1a7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/B_1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/B_1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://46553470-9935-4c74-88c7-4c129a288a33"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0c6b10cd-e96c-4b92-902c-16512f6ea7d1",
+      "@type" : "sc:Canvas",
+      "label" : "The second example of the letter 'B' ",
+      "height" : 336,
+      "width" : 336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://18fc625f-116e-4971-a4fc-2eef41473339",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/TMDRA-project/images/B_2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/TMDRA-project/images/B_2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 336,
+          "width" : 336
+        },
+        "on" : "http://0c6b10cd-e96c-4b92-902c-16512f6ea7d1"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
