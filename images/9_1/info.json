@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 11,
+    "height" : 11
+  }, {
+    "width" : 21,
+    "height" : 21
+  }, {
+    "width" : 42,
+    "height" : 42
+  }, {
+    "width" : 84,
+    "height" : 84
+  }, {
+    "width" : 168,
+    "height" : 168
+  }, {
+    "width" : 336,
+    "height" : 336
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 336,
+  "@id" : "https://elisaif.github.io/TMDRA-project/images/9_1",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 336
+}
