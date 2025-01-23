@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://elisaif.github.io/TMDRA-project/images/4_1/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "4_1"
+                ]
+            },
+            "height": 336,
+            "width": 336,
+            "items": [
+                {
+                    "id": "https://elisaif.github.io/TMDRA-project/images/4_1/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://elisaif.github.io/TMDRA-project/images/4_1/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://elisaif.github.io/TMDRA-project/images/4_1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 11,
+                                                "height": 11
+                                            },
+                                            {
+                                                "width": 21,
+                                                "height": 21
+                                            },
+                                            {
+                                                "width": 42,
+                                                "height": 42
+                                            },
+                                            {
+                                                "width": 84,
+                                                "height": 84
+                                            },
+                                            {
+                                                "width": 168,
+                                                "height": 168
+                                            },
+                                            {
+                                                "width": 336,
+                                                "height": 336
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 336,
+                                        "@id": "https://elisaif.github.io/TMDRA-project/images/4_1",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 336,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://elisaif.github.io/TMDRA-project/images/4_1/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://elisaif.github.io/TMDRA-project/images/1_2/canvas/",
             "type": "Canvas",
             "label": {
